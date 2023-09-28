@@ -1,6 +1,6 @@
 import Movies from './Components/Movies';
 import Header from './Components/Header';
-import Movies from 'moviess'
+import Moviese from './moviess.json'
 import './App.css';
 
 function App() {
@@ -8,18 +8,23 @@ function App() {
    <div className="App">
   <Header/>
   
-
+  
     <div className='main'>
     {
-      Movies.map((element)=>{
-        <Movies
-        title={element.title}
-        year={element.year}
-        img={element.poster}
+      Moviese.map((element)=>{
+        return(
+          <div className='movies'> 
+            <Movies 
         
-        />
-
+          title={element.Title}
+          year={element.Year}
+          image={element.Poster}
+          />
+          </div>
+       
+        )
       })
+      
     }
      
     </div>   
