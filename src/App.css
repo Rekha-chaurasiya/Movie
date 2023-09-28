@@ -1,0 +1,30 @@
+.App {
+  text-align:center;
+  background-color: floralwhite;
+  color: ghostwhite;
+  min-height:100vh ;
+}
+.header{
+  background-color: rgb(27, 124, 209);
+}
+.footer{
+  background-color: rgb(24, 80, 210);
+}
+h1{
+  margin:0;
+}
+.main{
+ display: flex;
+ justify-content:center ; 
+ flex-wrap: wrap;
+ padding: 14px;
+}
+.movies{
+  background-color: rgba(100, 88, 88, 0.158);
+  color: black;
+  border: 1px solid black;
+  padding:3px;
+  font-weight: bold;
+  text-align: start;
+}
+
