@@ -13,12 +13,12 @@ function App() {
     {
       Moviese.map((element)=>{
         return(
-          <div className='movies'> 
+          <div className='moviess'> 
             <Movies 
-        
+         
+          image={element.Poster}
           title={element.Title}
           year={element.Year}
-          image={element.Poster}
           />
           </div>
        

@@ -1,10 +1,9 @@
 const Movies =({image,title,year})=>{
     return(
         <div className="movies">
-           
-           {title}
-           {year}
            <img src={image} alt=""/>
+           <p>{title}</p>
+           <p>{year}</p>
         </div>
     )
 }

@@ -15,16 +15,26 @@ h1{
 }
 .main{
  display: flex;
- justify-content:center ; 
+ justify-content:space-between ; 
  flex-wrap: wrap;
  padding: 14px;
+ 
 }
-.movies{
+.moviess{
   background-color: rgba(100, 88, 88, 0.158);
   color: black;
   border: 1px solid black;
   padding:3px;
   font-weight: bold;
   text-align: start;
+  width:23%;
+  margin-top: 26px;;
+ 
+}
+.movies img{
+  height: 350px;
+  width:100%;
+ 
+ 
 }
 
